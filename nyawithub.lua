@@ -43,11 +43,17 @@ local Window = Rayfield:CreateWindow({
       FileName = "Sawit Hub"
    },
 
+   Discord = {
+      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "Qh8HhBjnhh", -- The Discord invite code, do not include Discord.gg/. E.g. Discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the Discord every time they load it up
+   },
+   
    KeySystem = true,
    KeySettings = {
       Title = "Sawit",
       Subtitle = "Sawit Hub Key System",
-      Note = "Join the Discord server to obtain the Sawit key",
+      Note = "Join the Discord discord.gg/Qh8HhBjnhh server to obtain the Sawit key",
       FileName = "Key",
       SaveKey = true,
       GrabKeyFromSite = false,
